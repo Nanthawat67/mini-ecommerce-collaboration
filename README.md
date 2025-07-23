@@ -16,3 +16,32 @@
 ---
 
 ## 🧱 โครงสร้างโปรเจกต์
+mini-ecommerce/
+├── index.html
+├── js/
+│ ├── main.js
+│ └── products.json
+├── css/
+│ └── style.css
+└── README.md
+
+## 🚀 ฟีเจอร์ใหม่ใน Version 2
+
+### ✅ โดย Dev A:
+- เพิ่ม `Loading State` สำหรับการโหลดสินค้า
+- ปรับปรุง UI ด้วย effect แบบ smooth hover (scale)
+- จัด layout แบบ responsive (Flexbox)
+- ปรับรูปสินค้าให้ใช้ลิงก์จริง (unsplash)
+- แสดงราคาสินค้าด้วยเครื่องหมาย comma (เช่น 12,500 บาท)
+
+### ✅ โดย Dev B:
+- ปรับปรุงระบบค้นหาให้ตัด `whitespace` ก่อนค้นหา
+- เพิ่ม validation: ถ้า input ว่าง ให้แสดงสินค้าทั้งหมด
+- แก้ไขและจัดการ merge conflict ด้วย `git rebase`
+
+## 🧪 การติดตั้งและใช้งาน
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/your-username/mini-ecommerce-collaboration.git
+cd mini-ecommerce-collaboration
