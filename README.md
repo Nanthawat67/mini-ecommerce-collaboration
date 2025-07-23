@@ -19,4 +19,7 @@
 - แก้ Merge Conflict ด้วย `git rebase`
 
 ## 🧪 การใช้งาน
-1. Clone repo:
+1. Clone repository:
+   ```bash
+   git clone https://github.com/Nanthawat67/mini-ecommerce-collaboration.git
+
